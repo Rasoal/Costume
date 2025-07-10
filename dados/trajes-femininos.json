@@ -1,0 +1,63 @@
+[
+  {
+    "titulo": "Vestido de Noiva Clássico",
+    "descricao": "Renda delicada e corte princesa para um dia inesquecível.",
+    "imagem": "imagens/f1.jpeg"
+  },
+  {
+    "titulo": "Vestido de Debutante Rosa",
+    "descricao": "Romântico e encantador para brilhar aos 15 anos.",
+    "imagem": "imagens/f2.jpeg"
+  },
+  {
+    "titulo": "Vestido Longo Azul Royal",
+    "descricao": "Ideal para madrinhas e eventos noturnos com elegância.",
+    "imagem": "imagens/f3.jpeg"
+  },
+  {
+    "titulo": "Vestido Branco Minimalista",
+    "descricao": "Simplicidade sofisticada para noivas modernas.",
+    "imagem": "imagens/f4.jpeg"
+  },
+  {
+    "titulo": "Vestido de Festa Bordado",
+    "descricao": "Detalhes em brilho para ocasiões glamourosas.",
+    "imagem": "imagens/f5.jpeg"
+  },
+  {
+    "titulo": "Vestido Rosé Tule",
+    "descricao": "Leveza e delicadeza para eventos ao ar livre.",
+    "imagem": "imagens/f6.jpeg"
+  },
+  {
+    "titulo": "Vestido Off-White Renda",
+    "descricao": "Clássico com toque romântico para cerimônias diurnas.",
+    "imagem": "imagens/f7.jpeg"
+  },
+  {
+    "titulo": "Vestido Dourado Brilhante",
+    "descricao": "Luxo e destaque para festas noturnas.",
+    "imagem": "imagens/f8.jpeg"
+  },
+  {
+    "titulo": "Vestido Vermelho Sereia",
+    "descricao": "Sensualidade e sofisticação no mesmo look.",
+    "imagem": "imagens/f9.jpeg"
+  },
+  {
+    "titulo": "Vestido Vermelho Sereia",
+    "descricao": "Sensualidade e sofisticação no mesmo look.",
+    "imagem": "imagens/f10.jpeg"
+  },
+  {
+    "titulo": "Vestido Vermelho Sereia",
+    "descricao": "Sensualidade e sofisticação no mesmo look.",
+    "imagem": "imagens/f11.jpeg"
+  },
+  {
+    "titulo": "Vestido Vermelho Sereia",
+    "descricao": "Sensualidade e sofisticação no mesmo look.",
+    "imagem": "imagens/f12.jpeg"
+  }
+
+]

@@ -1,0 +1,354 @@
+/* Estilos gerais */
+body {
+  font-family: 'Lora', serif;
+  background-color: #fffafc;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #000;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.logo-subtext {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: block;
+  color: #555;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: #333;
+  font-family: 'Lora', serif;
+}
+
+.navbar .nav-link:hover {
+  color: #c2185b;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #c2185b;
+}
+
+/* Carrossel */
+#home {
+  margin-top: 80px; /* espaço para não esconder atrás da navbar fixa */
+}
+
+.carousel-img {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* 80% de opacidade */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  text-align: left;
+  z-index: 10;
+}
+
+.titulo-principal {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Garante que o carrossel ocupe a tela toda e os botões estejam visíveis */
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* torna os ícones visíveis sobre fundo escuro */
+}
+
+* {
+  font-family: 'Lora', serif;
+}
+
+/* ============================= Quem somos ========================= */
+
+#quem-somos {
+  background-color: #fdfdfd;
+}
+
+.titulo-principal {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #c2185b;
+}
+
+#quem-somos p {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* ========================= Masculino =================*/
+
+.titulo-principal {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #c2185b;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: 'Lora', serif;
+}
+
+.lead {
+  font-family: 'Lora', serif;
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .col-md-2 {
+    display: none; /* oculta lateral em telas pequenas, se desejar */
+  }
+}
+
+/* ========================= Rodapé ======================== */
+
+footer .logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .logo-subtext {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ccc;
+  display: block;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+
+footer i {
+  font-size: 20px;
+}
+
+/*=====================================================================*/
+
+/* -============= RESPONSIVIDADE: Navbar e Logo ================ */
+.navbar-brand.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.05;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand.logo-text {
+    font-size: 16px;
+  }
+  .logo-subtext {
+    font-size: 10px;
+  }
+}
+
+/* ---------- Carrossel aprimorado ---------- */
+.carousel-img {
+  min-height: 350px;
+  height: 80vh;
+  max-height: 600px;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.15);
+  border-radius: .7em;
+  padding: 1.5em 2em;
+}
+
+@media (max-width: 992px) {
+  .carousel-caption {
+    bottom: 10%;
+    left: 4%;
+    padding: 1em 1.2em;
+  }
+  .titulo-principal {
+    font-size: 1.3em;
+  }
+  .subtitulo {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-img,
+  .carousel-item {
+    height: 260px !important;
+    min-height: 180px;
+    max-height: 320px;
+  }
+  .carousel-caption {
+    position: absolute;
+    left: 2%;
+    bottom: 4%;
+    font-size: 0.95em;
+    padding: 0.7em 1em;
+  }
+  .titulo-principal {
+    font-size: 1.1em;
+  }
+  .subtitulo {
+    font-size: 0.93em;
+  }
+}
+
+/* Botões do carrossel melhor posicionados no mobile */
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+/* ---------- Grid principal e colunas ---------- */
+@media (max-width: 991.98px) {
+  .col-md-10, .col-md-8, .col-md-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* ---------- Cartões (produtos) ---------- */
+.card {
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.card-img-top {
+  border-radius: 1rem 1rem 0 0;
+  height: 230px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 150px;
+    max-height: 180px;
+  }
+}
+
+/* ---------- Rodapé responsivo ---------- */
+footer .col-md-4 {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .col-md-4 {
+    width: 100%;
+    max-width: 100%;
+  }
+  footer .logo-text {
+    font-size: 18px;
+  }
+  footer .logo-subtext {
+    font-size: 10px;
+  }
+}
+
+footer a img {
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+
+/* ---------- Ajuste extra para #home margin-top no mobile ---------- */
+@media (max-width: 768px) {
+  #home {
+    margin-top: 100px;
+  }
+}
+
+/* ---------- Pequeno ajuste visual para .lead e títulos ---------- */
+.lead {
+  font-size: 1.07rem;
+}
+
+.titulo-principal {
+  font-weight: 700;
+}
+
+/* Remover foco feio do botão ao clicar no mobile */
+button:focus, .btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Ajuste destaque das oáginas masculino/feminino/infantil ´´*/
+
+@media (max-width: 768px) {
+  .col-md-2 {
+    /* Remove o display:none para que a coluna apareça */
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-left: none !important;
+    border-top: 1px solid #eee !important;
+    margin-top: 2rem;
+    padding: 1.5rem !important;
+  }
+}
+

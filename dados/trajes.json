@@ -1,0 +1,62 @@
+[
+  {
+    "titulo": "Terno Slim Azul Marinho",
+    "descricao": "Perfeito para casamentos noturnos e eventos sofisticados.",
+    "imagem": "imagens/t1.jpeg"
+  },
+  {
+    "titulo": "Terno Clássico Preto",
+    "descricao": "Elegância atemporal para qualquer evento.",
+    "imagem": "imagens/t2.jpeg"
+  },
+  {
+    "titulo": "Terno Cinza Claro",
+    "descricao": "Ideal para casamentos diurnos e ocasiões leves.",
+    "imagem": "imagens/t3.jpeg"
+  },
+  {
+    "titulo": "Terno Vinho Slim",
+    "descricao": "Moderno e ousado, para quem quer se destacar.",
+    "imagem": "imagens/t4.jpeg"
+  },
+  {
+    "titulo": "Terno Azul Claro",
+    "descricao": "Suave e elegante, ideal para eventos ao ar livre.",
+    "imagem": "imagens/t5.jpeg"
+  },
+  {
+    "titulo": "Terno Grafite",
+    "descricao": "Sofisticação e versatilidade em uma só peça.",
+    "imagem": "imagens/t6.jpeg"
+  },
+  {
+    "titulo": "Smoking Preto",
+    "descricao": "Perfeito para cerimônias formais e noturnas.",
+    "imagem": "imagens/t7.jpeg"
+  },
+  {
+    "titulo": "Terno Azul Royal",
+    "descricao": "Visual marcante e moderno para padrinhos.",
+    "imagem": "imagens/t8.jpeg"
+  },
+  {
+    "titulo": "Terno Branco",
+    "descricao": "Opção refinada e ousada para eventos especiais.",
+    "imagem": "imagens/t9.jpeg"
+  },
+  {
+    "titulo": "Terno Slim Azul Marinho",
+    "descricao": "Perfeito para casamentos noturnos e eventos sofisticados.",
+    "imagem": "imagens/t10.jpeg"
+  },
+  {
+    "titulo": "Terno Clássico Preto",
+    "descricao": "Elegância atemporal para qualquer evento.",
+    "imagem": "imagens/t11.jpeg"
+  },
+  {
+    "titulo": "Terno Cinza Claro",
+    "descricao": "Ideal para casamentos diurnos e ocasiões leves.",
+    "imagem": "imagens/t12.jpeg"
+  }
+]

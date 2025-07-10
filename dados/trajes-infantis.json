@@ -1,0 +1,47 @@
+[
+  {
+    "titulo": "Terninho Infantil Azul",
+    "descricao": "Elegância para pajens e ocasiões especiais.",
+    "imagem": "imagens/i1.jpeg"
+  },
+  {
+    "titulo": "Vestido de Daminha Branco",
+    "descricao": "Delicado e encantador para casamentos.",
+    "imagem": "imagens/i2.jpeg"
+  },
+  {
+    "titulo": "Terninho Bege com Suspensório",
+    "descricao": "Conforto e estilo para eventos diurnos.",
+    "imagem": "imagens/i3.jpeg"
+  },
+  {
+    "titulo": "Vestido Rosa com Tule",
+    "descricao": "Ideal para aniversários e festas.",
+    "imagem": "imagens/i4.jpeg"
+  },
+  {
+    "titulo": "Terno Infantil Grafite",
+    "descricao": "Perfeito para eventos formais.",
+    "imagem": "imagens/i5.jpeg"
+  },
+  {
+    "titulo": "Vestido Off-White com Renda",
+    "descricao": "Sofisticação e delicadeza em um só traje.",
+    "imagem": "imagens/i6.jpeg"
+  },
+  {
+    "titulo": "Terninho com Gravata Borboleta",
+    "descricao": "Charmoso e divertido para os pequenos.",
+    "imagem": "imagens/i7.jpeg"
+  },
+  {
+    "titulo": "Vestido Lilás Floral",
+    "descricao": "Colorido e leve para eventos ao ar livre.",
+    "imagem": "imagens/i8.jpeg"
+  },
+  {
+    "titulo": "Conjunto Social com Colete",
+    "descricao": "Um toque refinado para os meninos.",
+    "imagem": "imagens/i9.jpeg"
+  }
+]
